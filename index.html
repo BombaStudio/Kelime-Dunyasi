@@ -8,12 +8,13 @@
 	</head>
 	<body>
 		<div class="govde">
-			<input type="text" placeholder="aranacak kelime">
+			<input type="text" placeholder="aranacak kelime" id="a">
 			<button id="ara">Ara</button>
 			<ul>
 				<script>
 					$("#ara").click(function(event){
-						alert("calisiyor");
+						var a = document.getElementById("a");
+					$.get("", function (r){});
 					});
 				</script>
 			</ul>
