@@ -14,7 +14,11 @@
 				<script>
 					$("#ara").click(function(event){
 						var a = document.getElementById("a");
-					$.get("", function (r){});
+						var url = "https://sozluk.gov.tr/gts?ara=";
+						var c = url+a;
+						$.get(c, function (r){
+							
+						});
 					});
 				</script>
 			</ul>
